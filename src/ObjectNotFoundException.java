@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class ObjectNotFoundException {
+public class ObjectNotFoundException extends LInkedListException{
+    public ObjectNotFoundException() {
+        super();
+    }
+    public ObjectNotFoundException(String message) {
+        super(message);
+    }
 }

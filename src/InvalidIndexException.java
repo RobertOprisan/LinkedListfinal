@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class InvalidIndexException {
+public class InvalidIndexException extends LInkedListException {
+    public InvalidIndexException() {
+        super();
+    }
+    public InvalidIndexException(String message) {
+        super(message);
+    }
 }
